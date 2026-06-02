@@ -1,0 +1,42 @@
+body {
+  background: lightgray;
+  font-family: Arial;
+}
+
+.container {
+  width: 350px;
+  background: white;
+  margin: 80px auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.transaction {
+  background: #f1f1f1;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  width: auto;
+  padding: 5px 10px;
+}
